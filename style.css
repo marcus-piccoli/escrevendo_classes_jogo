@@ -1,9 +1,8 @@
 /* Estilos personalizados complementares ao Tailwind */
 
-.input {
-  @apply mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500;
-}
+/* Como não podemos usar @apply, vamos usar classes diretamente no HTML.
+   Este arquivo pode ser usado para ajustes adicionais, se quiser. */
 
-.btn {
-  @apply w-full bg-green-600 text-white py-2 rounded-md hover:bg-green-700 transition;
+body {
+  font-family: sans-serif;
 }
